@@ -1,14 +1,14 @@
 #include "monty.h"
 /**
- * swap_func - adds the top two elements of the stack.
+ * f_swap - adds the top two elements of the stack.
  * @head: head pointer
  * @counter: num of line
  * Return: void
 */
-void swap_func(stack_t **head, unsigned int counter)
+void f_swap(stack_t **head, unsigned int counter)
 {
 	stack_t *he;
-	int length = 0, dir;
+	int length = 0,dir;
 
 	he = *head;
 	while (he)

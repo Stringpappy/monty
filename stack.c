@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * stack_func  - func tha tprints the top
+ * f_stack - func tha tprints the top
  * @head:pointer
  * @counter: num of line
  * Return: void
 */
-void stack_func(stack_t **head, unsigned int counter)
+void f_stack(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;

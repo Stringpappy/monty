@@ -1,20 +1,20 @@
 #include "monty.h"
 /**
- * div_func  -func that divides the top two elements of the stack.
+ * f_div -func that divides the top two elements of the stack.
  * @head: pointer
  * @counter: num of line
  * Return: void
 */
-void div_func(stack_t **head, unsigned int counter)
+void f_div(stack_t **head, unsigned int counter)
 {
-	stack_t *he;
+	stack_t *h;
 	int length = 0, aux;
 
 	he = *head;
 	while (he)
 	{
-		he = he->next;
-		length++;
+		he = h->next;
+		lenght++;
 	}
 	if (length < 2)
 	{

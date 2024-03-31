@@ -1,14 +1,16 @@
 #include "monty.h"
 /**
- * add_fun - func that adds the top two elements of the stack.
+ * f_add - func that adds the top two elements of the stack.
  * @head: pointer
  * @counter: num of line
  * Return: void
 */
-void add_fun(stack_t **head, unsigned int counter)
+void f_add(stack_t **head, unsigned int counter)
 {
 	stack_t *he;
-	int length = 0, aux;
+	bus_t bus;
+	int length = 0;
+        int aux;
 
 	he = *head;
 	while (he)

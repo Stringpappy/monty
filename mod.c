@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * mod_func  - computes the division of element
+ * f_mod - computes the division of element
  * @head:pointer
  * @counter: numb of line
  * Return: void
 */
-void mod_func(stack_t **head, unsigned int counter)
+void f_mod(stack_t **head, unsigned int counter)
 {
 	stack_t *he;
 	int length = 0, dir;

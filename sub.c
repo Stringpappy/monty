@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
-  *sub_func - that perform sustration
-  *@head: pointer
-  *@counter: num of line
-  *Return:  void
+  *f_sub- sustration
+  *@head: stack head
+  *@counter: line_number
+  *Return: no return
  */
-void sub_func(stack_t **head, unsigned int counter)
+void f_sub(stack_t **head, unsigned int counter)
 {
 	stack_t *dir;
 	int put, node;
