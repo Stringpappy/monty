@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-  *f_sub-func that perform sustration
+  *sub_func - that perform sustration
   *@head: pointer
   *@counter: num of line
   *Return:  void

@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- * f_pstr - func that prints the string at the top
+ * pstr_func - func that prints the string at the top
  * followed by a new
  * @head: pointer
  * @counter: num of line
  * Return: void
 */
-void f_pstr(stack_t **head, unsigned int counter)
+void pstr_func(stack_t **head, unsigned int counter)
 {
 	stack_t *he;
 	(void)counter;

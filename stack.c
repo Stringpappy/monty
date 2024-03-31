@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_stack - func tha tprints the top
+ * stack_func  - func tha tprints the top
  * @head:pointer
  * @counter: num of line
  * Return: void

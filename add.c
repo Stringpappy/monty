@@ -13,7 +13,7 @@ void add_fun(stack_t **head, unsigned int counter)
 	he = *head;
 	while (he)
 	{
-		h = h->next;
+		he = he->next;
 		length++;
 	}
 	if (length < 2)

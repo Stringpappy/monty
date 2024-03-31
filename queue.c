@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_queue - func that  prints the top
+ * queue_func - func that  prints the top
  * @head: pointer
  * @counter: num of line
  * Return: void

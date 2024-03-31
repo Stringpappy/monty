@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_pchar - prints the char at the top of the stack,
+ * pchar_func - prints the char at the top of the stack,
  * followed by a new line
  * @head: pointer
  * @counter: num of line
@@ -8,9 +8,9 @@
 */
 void pchar_func(stack_t **head, unsigned int counter)
 {
-	stack_t *hw;
+	stack_t *he;
 
-	hw = *head;
+	he = *head;
 	if (!he)
 	{
 		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);

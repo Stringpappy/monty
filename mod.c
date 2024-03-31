@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_mod - computes the division of element
+ * mod_func  - computes the division of element
  * @head:pointer
  * @counter: numb of line
  * Return: void
